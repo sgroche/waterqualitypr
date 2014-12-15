@@ -1,0 +1,30 @@
+<div class="jumbotron" id="myJumbotron">
+  <div class="container" style="text-align:center">
+    <h3> Lista de artículos </h3>
+  </div>
+</div>
+
+<br> </br> 
+
+
+
+<table class="table table-striped" id="indexPinsTable">
+<tr> 
+  <th> Descripción </th>
+  <th> Acción </th>
+</tr>
+  <% @pins.each do |pin| %>
+  <tr> 
+    <td> <%= pin.description %> </td>
+    <td> <%=link_to 'Ver', pin %> | <%= link_to 'Editar', edit_pin_path(pin) %> | <%= link_to 'Borrar', pin, method: :delete, data: { confirm: '¿Está seguro?' } %> </td>
+  </tr>
+  <% end %>
+</table>
+
+<button type="button" class="btn btn-default" id="indexPinsBtn"> <%= link_to 'Añadir Árticulo', new_pin_path %>  </button> 
+
+
+
+
+
+

@@ -1,0 +1,180 @@
+/* general styling */
+$navbar-inverse-bg: #27ae60;
+$navbar-inverse-link-color: white;
+$border-radius-base: 0;
+$body-bg:#ecf0f1;
+$jumbotron-bg: #fff;
+$carousel-control-color: #fff;
+$carousel-control-width: 5%;
+$carousel-indicator-active-bg: #ecf0f1;
+
+
+#myJumbotron {
+  height: 150px;
+  background-color: #D8D8D8; 
+  border-radius: 0; 
+  margin-bottom: 20px;
+} 
+
+#myRows {
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 5px; 
+}
+
+
+/* styling for contact form */ 
+#message_name {
+  width: 50%;
+}
+
+#message_email {
+  width: 50%;
+}
+
+#message_subject {
+  width: 50%
+}
+
+
+
+/* home page styling */ 
+#myCarouselCaption {
+  font-size: 32px;
+}
+
+#myContainer {
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0; 
+}
+
+#homeColumns {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.carousel-inner > .item > img {
+    margin: 0 auto;
+} 
+
+.peopleCarousel img {
+  width: 100%;
+  height: 400px;
+  max-height: 400px;
+}
+
+.media-object {
+    width: 250px;
+    height: 125px;
+    margin-bottom: 20px;
+}
+
+
+/* enlaces styling */
+#mymediabox {
+  height: 400px;
+}
+
+#mythumbnail{
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#squarethumbnail{
+  display: block;
+  width: 125px;
+  max-width: 100%;
+  height: 125px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+/* edit pins form */
+#pin_body, .form-control {
+  height: 250px;
+}
+
+.btn, #btn-primary {
+  margin-left: 2% ;
+}
+
+
+/*index pins button */
+#indexPinsBtn {
+  margin-left: 2%;
+}
+
+
+/* index pins table */
+#indexPinsTable {
+  margin-left: 2%;
+  margin-right: 2%;
+  width: 80%;
+}
+
+
+/* show pins panel */ 
+#showPinsPanel {
+  width: 50%;
+  height: 60%;
+  margin-left: 2%;
+  margin-top: 2%;
+  float: middle;
+}
+
+
+
+/* footer */ 
+#footerJumbotron {
+  margin-bottom: 0;
+  background-color: #27ae60;
+  height: 125px;
+  padding-right: 0;
+  padding-left: 0;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  border-radius: 0;
+}
+
+* {
+  margin: 0;
+}
+html, body {
+  height: 100%;
+}
+.wrapper {
+  min-height: 100%;
+  margin: 0 auto -155px; /* the bottom margin is the negative value of the footer's height */
+}
+footer, .push {
+  height: 25px; /* '.push' must be the same height as 'footer' */
+}
+
+
+/* galeria */
+#thumbnailGaleria {
+  height: 200px;
+  width: 300px;
+}
+
+#imgGaleria {
+  height: 190px;
+  width: 390px;
+}
+
+#descGaleria {
+  margin-left: 1%;
+}
+
+
+
+
+/* import styling */
+@import 'bootstrap' ;

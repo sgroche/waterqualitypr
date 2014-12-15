@@ -1,0 +1,41 @@
+<%= form_for @message, :url => getcontact_path do |form| %>
+  
+<div class="row">
+  <div class="col-xs-6" style="margin-left:2%"> 
+
+
+   <form role="form">
+  
+    <div class="form-group" style="margin-top:2%">
+      <label> <%= form.label :nombre %> </label>
+     <input class="form-control" id="message_name" name="message[name]" type="text"> 
+    </div>
+
+    
+    <div class="form-group">
+        <label> <%= form.label :correo_electrónico %> </label>
+        <input class="form-control" id="message_email" name="message[email]" type="text">
+    </div>
+
+    <div class="form-group">
+        <label> <%= form.label :asunto %> </label>
+       <input class="form-control" id="message_subject" name="message[subject]" type="text">
+     </div>
+    
+    <div class="form-group">
+        <label> <%= form.label :comentarios %> </label>
+        <textarea class="form-control" id="message_body" name="message[body]" type="text" rows="4"> </textarea>
+    </div>
+
+
+  <button type="submit" class="btn btn-default">  Enviar </button>
+
+</form>
+
+</div>
+
+  <div class="col-xs-6"></div>
+</div>
+ 
+
+<% end %>
