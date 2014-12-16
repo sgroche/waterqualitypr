@@ -50861,3 +50861,5 @@ ActionController::RoutingError (No route matches [GET] "/fonts/bootstrap/glyphic
   Rendered /Users/Stephan/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.0ms)
   Rendered /Users/Stephan/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.0ms)
   Rendered /Users/Stephan/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (39.0ms)
+  [1m[36mActiveRecord::SchemaMigration Load (36.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
