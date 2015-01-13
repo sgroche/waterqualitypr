@@ -16,7 +16,7 @@
   <% @pins.each do |pin| %>
   <tr> 
     <td> <%= pin.description %> </td>
-    <td> <%=link_to 'Ver', pin %> | <%= link_to 'Editar', edit_pin_path(pin) %> | <%= link_to 'Borrar', pin, method: :delete, data: { confirm: '¿Está seguro?' } %> </td>
+    <td> <%=link_to 'Ver', pin %> | Editar | Borrar </td>
   </tr>
   <% end %>
 </table>

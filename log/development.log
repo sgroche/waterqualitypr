@@ -50863,3 +50863,944 @@ ActionController::RoutingError (No route matches [GET] "/fonts/bootstrap/glyphic
   Rendered /Users/Stephan/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (39.0ms)
   [1m[36mActiveRecord::SchemaMigration Load (36.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
   [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-13 16:08:05 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (2.8ms)
+  Rendered layouts/_header.html.erb (2.9ms)
+  Rendered layouts/_footer.html.erb (1.1ms)
+Completed 200 OK in 591ms (Views: 564.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2015-01-13 16:08:06 -0400
+
+
+Started GET "/assets/bootstrap_and_customization.css?body=1" for 127.0.0.1 at 2015-01-13 16:08:06 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-13 16:08:06 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-13 16:08:06 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-13 16:08:06 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-13 16:08:06 -0400
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2015-01-13 16:08:06 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-13 16:08:06 -0400
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2015-01-13 16:08:06 -0400
+
+
+Started GET "/assets/pins.js?body=1" for 127.0.0.1 at 2015-01-13 16:08:06 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-13 16:08:06 -0400
+
+
+Started GET "/fonts/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2015-01-13 16:08:06 -0400
+
+ActionController::RoutingError (No route matches [GET] "/fonts/bootstrap/glyphicons-halflings-regular.woff"):
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/Stephan/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/Stephan/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/Stephan/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/Stephan/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/Stephan/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.5ms)
+  Rendered /Users/Stephan/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (108.5ms)
+  Rendered /Users/Stephan/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (167.2ms)
+
+
+Started GET "/fonts/bootstrap/glyphicons-halflings-regular.ttf" for 127.0.0.1 at 2015-01-13 16:08:07 -0400
+
+ActionController::RoutingError (No route matches [GET] "/fonts/bootstrap/glyphicons-halflings-regular.ttf"):
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/Stephan/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/Stephan/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/Stephan/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/Stephan/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/Stephan/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.8ms)
+  Rendered /Users/Stephan/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /Users/Stephan/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (24.0ms)
+
+
+Started GET "/investigadores" for 127.0.0.1 at 2015-01-13 16:08:29 -0400
+Processing by PagesController#investigadores as HTML
+  Rendered pages/investigadores.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+  Rendered layouts/_footer.html.erb (0.7ms)
+Completed 200 OK in 108ms (Views: 106.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/documentos" for 127.0.0.1 at 2015-01-13 16:08:37 -0400
+Processing by PagesController#documentos as HTML
+  Rendered pages/documentos.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 115ms (Views: 113.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/galeria" for 127.0.0.1 at 2015-01-13 16:08:41 -0400
+Processing by PagesController#galeria as HTML
+  Rendered layouts/_club4h.html.erb (0.9ms)
+  Rendered layouts/_muestreo.html.erb (0.6ms)
+  Rendered layouts/_campo1.html.erb (1.1ms)
+  Rendered layouts/_campo2.html.erb (0.7ms)
+  Rendered layouts/_campo3.html.erb (0.9ms)
+  Rendered layouts/_filtros.html.erb (0.5ms)
+  Rendered pages/galeria.html.erb within layouts/application (43.0ms)
+  Rendered layouts/_header.html.erb (1.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 148ms (Views: 146.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/enlaces" for 127.0.0.1 at 2015-01-13 16:08:56 -0400
+Processing by PagesController#enlaces as HTML
+  Rendered pages/enlaces.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 116ms (Views: 115.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/enlaces" for 127.0.0.1 at 2015-01-13 16:09:00 -0400
+Processing by PagesController#enlaces as HTML
+  Rendered pages/enlaces.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 123ms (Views: 122.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pins" for 127.0.0.1 at 2015-01-13 16:09:01 -0400
+Processing by PinsController#index as HTML
+  [1m[35mPin Load (8.9ms)[0m  SELECT "pins".* FROM "pins"
+  Rendered pins/index.html.erb within layouts/application (16.0ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 101ms (Views: 88.5ms | ActiveRecord: 9.3ms)
+
+
+Started GET "/pins" for 127.0.0.1 at 2015-01-13 16:09:06 -0400
+Processing by PinsController#index as HTML
+  [1m[36mPin Load (0.2ms)[0m  [1mSELECT "pins".* FROM "pins"[0m
+  Rendered pins/index.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 120ms (Views: 119.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/calendario" for 127.0.0.1 at 2015-01-13 16:09:07 -0400
+Processing by PagesController#calendario as HTML
+  Rendered pages/calendario.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 102ms (Views: 100.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pins" for 127.0.0.1 at 2015-01-13 16:09:13 -0400
+Processing by PinsController#index as HTML
+  [1m[35mPin Load (0.2ms)[0m  SELECT "pins".* FROM "pins"
+  Rendered pins/index.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 74ms (Views: 73.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/pins/6" for 127.0.0.1 at 2015-01-13 16:09:16 -0400
+Processing by PinsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mPin Load (0.2ms)[0m  [1mSELECT  "pins".* FROM "pins"  WHERE "pins"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered pins/show.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 134ms (Views: 131.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/pins" for 127.0.0.1 at 2015-01-13 16:09:19 -0400
+Processing by PinsController#index as HTML
+  [1m[35mPin Load (0.2ms)[0m  SELECT "pins".* FROM "pins"
+  Rendered pins/index.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 441ms (Views: 440.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/pins/new" for 127.0.0.1 at 2015-01-13 16:09:20 -0400
+Processing by PinsController#new as HTML
+  Rendered pins/_form.html.erb (104.6ms)
+  Rendered pins/new.html.erb within layouts/application (106.7ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 401ms (Views: 400.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/pins" for 127.0.0.1 at 2015-01-13 16:09:27 -0400
+Processing by PinsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"V5CJcq/YymcmDpT/sihVxx+qNAE6+i4ZmOBWYtYPPOE=", "pin"=>{"description"=>"Prueba", "body"=>"Probando"}, "commit"=>"Actualizar"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (7.0ms)[0m  INSERT INTO "pins" ("body", "created_at", "description", "updated_at") VALUES (?, ?, ?, ?)  [["body", "Probando"], ["created_at", "2015-01-13 20:09:27.744445"], ["description", "Prueba"], ["updated_at", "2015-01-13 20:09:27.744445"]]
+  [1m[36m (11.4ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/pins/7
+Completed 302 Found in 59ms (ActiveRecord: 18.5ms)
+
+
+Started GET "/pins/7" for 127.0.0.1 at 2015-01-13 16:09:27 -0400
+Processing by PinsController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[35mPin Load (0.1ms)[0m  SELECT  "pins".* FROM "pins"  WHERE "pins"."id" = ? LIMIT 1  [["id", 7]]
+  Rendered pins/show.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 91ms (Views: 89.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/pins" for 127.0.0.1 at 2015-01-13 16:09:30 -0400
+Processing by PinsController#index as HTML
+  [1m[36mPin Load (0.3ms)[0m  [1mSELECT "pins".* FROM "pins"[0m
+  Rendered pins/index.html.erb within layouts/application (2.2ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 126ms (Views: 124.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/pins/7/edit" for 127.0.0.1 at 2015-01-13 16:09:31 -0400
+Processing by PinsController#edit as HTML
+  Parameters: {"id"=>"7"}
+  [1m[35mPin Load (0.1ms)[0m  SELECT  "pins".* FROM "pins"  WHERE "pins"."id" = ? LIMIT 1  [["id", 7]]
+  Rendered pins/_form.html.erb (2.0ms)
+  Rendered pins/edit.html.erb within layouts/application (3.6ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 107ms (Views: 105.4ms | ActiveRecord: 0.1ms)
+
+
+Started PATCH "/pins/7" for 127.0.0.1 at 2015-01-13 16:09:33 -0400
+Processing by PinsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"V5CJcq/YymcmDpT/sihVxx+qNAE6+i4ZmOBWYtYPPOE=", "pin"=>{"description"=>"Prueba", "body"=>"Probando"}, "commit"=>"Actualizar", "id"=>"7"}
+  [1m[36mPin Load (0.1ms)[0m  [1mSELECT  "pins".* FROM "pins"  WHERE "pins"."id" = ? LIMIT 1[0m  [["id", 7]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/pins/7
+Completed 302 Found in 3ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/pins/7" for 127.0.0.1 at 2015-01-13 16:09:33 -0400
+Processing by PinsController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[35mPin Load (0.1ms)[0m  SELECT  "pins".* FROM "pins"  WHERE "pins"."id" = ? LIMIT 1  [["id", 7]]
+  Rendered pins/show.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 72ms (Views: 70.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/pins" for 127.0.0.1 at 2015-01-13 16:09:35 -0400
+Processing by PinsController#index as HTML
+  [1m[36mPin Load (0.2ms)[0m  [1mSELECT "pins".* FROM "pins"[0m
+  Rendered pins/index.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 128ms (Views: 127.2ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/pins/7" for 127.0.0.1 at 2015-01-13 16:09:38 -0400
+Processing by PinsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"V5CJcq/YymcmDpT/sihVxx+qNAE6+i4ZmOBWYtYPPOE=", "id"=>"7"}
+  [1m[35mPin Load (0.1ms)[0m  SELECT  "pins".* FROM "pins"  WHERE "pins"."id" = ? LIMIT 1  [["id", 7]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "pins" WHERE "pins"."id" = ?  [["id", 7]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/pins
+Completed 302 Found in 4ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/pins" for 127.0.0.1 at 2015-01-13 16:09:38 -0400
+Processing by PinsController#index as HTML
+  [1m[35mPin Load (0.2ms)[0m  SELECT "pins".* FROM "pins"
+  Rendered pins/index.html.erb within layouts/application (2.3ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 85ms (Views: 83.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/pins" for 127.0.0.1 at 2015-01-13 16:17:35 -0400
+Processing by PinsController#index as HTML
+  [1m[36mPin Load (4.0ms)[0m  [1mSELECT "pins".* FROM "pins"[0m
+  Rendered pins/index.html.erb within layouts/application (7.6ms)
+  Rendered layouts/_header.html.erb (1.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 338ms (Views: 331.5ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/assets/bootstrap_and_customization.css?body=1" for 127.0.0.1 at 2015-01-13 16:17:36 -0400
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2015-01-13 16:17:36 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-13 16:17:36 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-13 16:17:36 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-13 16:17:36 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-13 16:17:36 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-13 16:17:36 -0400
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2015-01-13 16:17:36 -0400
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2015-01-13 16:17:36 -0400
+
+
+Started GET "/assets/pins.js?body=1" for 127.0.0.1 at 2015-01-13 16:17:36 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-13 16:17:36 -0400
+
+
+Started GET "/pins/6" for 127.0.0.1 at 2015-01-13 16:17:39 -0400
+Processing by PinsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mPin Load (22.1ms)[0m  SELECT  "pins".* FROM "pins"  WHERE "pins"."id" = ? LIMIT 1  [["id", 6]]
+  Rendered pins/show.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 108ms (Views: 84.0ms | ActiveRecord: 22.1ms)
+
+
+Started GET "/pins/6" for 127.0.0.1 at 2015-01-13 16:18:13 -0400
+Processing by PinsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mPin Load (0.1ms)[0m  [1mSELECT  "pins".* FROM "pins"  WHERE "pins"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered pins/show.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 89ms (Views: 86.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/bootstrap_and_customization.css?body=1" for 127.0.0.1 at 2015-01-13 16:18:13 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-13 16:18:13 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-13 16:18:13 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-13 16:18:13 -0400
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2015-01-13 16:18:13 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-13 16:18:14 -0400
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2015-01-13 16:18:14 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-13 16:18:14 -0400
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2015-01-13 16:18:14 -0400
+
+
+Started GET "/assets/pins.js?body=1" for 127.0.0.1 at 2015-01-13 16:18:14 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-13 16:18:14 -0400
+
+
+Started GET "/pins" for 127.0.0.1 at 2015-01-13 16:19:19 -0400
+Processing by PinsController#index as HTML
+  [1m[35mPin Load (0.2ms)[0m  SELECT "pins".* FROM "pins"
+  Rendered pins/index.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 88ms (Views: 87.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/pins/new" for 127.0.0.1 at 2015-01-13 16:19:25 -0400
+Processing by PinsController#new as HTML
+  Rendered pins/_form.html.erb (2.2ms)
+  Rendered pins/new.html.erb within layouts/application (3.4ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 105ms (Views: 104.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/pins" for 127.0.0.1 at 2015-01-13 16:19:32 -0400
+Processing by PinsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"V5CJcq/YymcmDpT/sihVxx+qNAE6+i4ZmOBWYtYPPOE=", "pin"=>{"description"=>"Test", "body"=>"Test"}, "commit"=>"Actualizar"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (18.7ms)[0m  INSERT INTO "pins" ("body", "created_at", "description", "updated_at") VALUES (?, ?, ?, ?)  [["body", "Test"], ["created_at", "2015-01-13 20:19:32.253212"], ["description", "Test"], ["updated_at", "2015-01-13 20:19:32.253212"]]
+  [1m[36m (1.7ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/pins/8
+Completed 302 Found in 25ms (ActiveRecord: 20.6ms)
+
+
+Started GET "/pins/8" for 127.0.0.1 at 2015-01-13 16:19:32 -0400
+Processing by PinsController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[35mPin Load (0.1ms)[0m  SELECT  "pins".* FROM "pins"  WHERE "pins"."id" = ? LIMIT 1  [["id", 8]]
+  Rendered pins/show.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 146ms (Views: 144.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/bootstrap_and_customization.css?body=1" for 127.0.0.1 at 2015-01-13 16:19:32 -0400
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2015-01-13 16:19:32 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-13 16:19:32 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-13 16:19:32 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-13 16:19:32 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-13 16:19:32 -0400
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2015-01-13 16:19:32 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-13 16:19:32 -0400
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2015-01-13 16:19:32 -0400
+
+
+Started GET "/assets/pins.js?body=1" for 127.0.0.1 at 2015-01-13 16:19:32 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-13 16:19:32 -0400
+
+
+Started GET "/pins" for 127.0.0.1 at 2015-01-13 16:19:36 -0400
+Processing by PinsController#index as HTML
+  [1m[36mPin Load (0.2ms)[0m  [1mSELECT "pins".* FROM "pins"[0m
+  Rendered pins/index.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 90ms (Views: 88.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/pins/6" for 127.0.0.1 at 2015-01-13 16:19:39 -0400
+Processing by PinsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mPin Load (0.1ms)[0m  SELECT  "pins".* FROM "pins"  WHERE "pins"."id" = ? LIMIT 1  [["id", 6]]
+  Rendered pins/show.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 125ms (Views: 124.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/pins" for 127.0.0.1 at 2015-01-13 16:20:45 -0400
+Processing by PinsController#index as HTML
+  [1m[36mPin Load (0.4ms)[0m  [1mSELECT "pins".* FROM "pins"[0m
+  Rendered pins/index.html.erb within layouts/application (2.8ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 118ms (Views: 116.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/pins/8" for 127.0.0.1 at 2015-01-13 16:20:47 -0400
+Processing by PinsController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[35mPin Load (0.1ms)[0m  SELECT  "pins".* FROM "pins"  WHERE "pins"."id" = ? LIMIT 1  [["id", 8]]
+  Rendered pins/show.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 88ms (Views: 86.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/pins" for 127.0.0.1 at 2015-01-13 16:20:58 -0400
+Processing by PinsController#index as HTML
+  [1m[36mPin Load (45.5ms)[0m  [1mSELECT "pins".* FROM "pins"[0m
+  Rendered pins/index.html.erb within layouts/application (47.4ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 123ms (Views: 76.9ms | ActiveRecord: 45.5ms)
+
+
+Started GET "/pins/6" for 127.0.0.1 at 2015-01-13 16:21:00 -0400
+Processing by PinsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mPin Load (0.1ms)[0m  SELECT  "pins".* FROM "pins"  WHERE "pins"."id" = ? LIMIT 1  [["id", 6]]
+  Rendered pins/show.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 79ms (Views: 77.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/pins" for 127.0.0.1 at 2015-01-13 16:21:06 -0400
+Processing by PinsController#index as HTML
+  [1m[36mPin Load (0.2ms)[0m  [1mSELECT "pins".* FROM "pins"[0m
+  Rendered pins/index.html.erb within layouts/application (2.3ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 142ms (Views: 140.3ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/pins/8" for 127.0.0.1 at 2015-01-13 16:21:13 -0400
+Processing by PinsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"V5CJcq/YymcmDpT/sihVxx+qNAE6+i4ZmOBWYtYPPOE=", "id"=>"8"}
+  [1m[35mPin Load (0.1ms)[0m  SELECT  "pins".* FROM "pins"  WHERE "pins"."id" = ? LIMIT 1  [["id", 8]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (40.8ms)[0m  DELETE FROM "pins" WHERE "pins"."id" = ?  [["id", 8]]
+  [1m[36m (1.5ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/pins
+Completed 302 Found in 47ms (ActiveRecord: 42.5ms)
+
+
+Started GET "/pins" for 127.0.0.1 at 2015-01-13 16:21:13 -0400
+Processing by PinsController#index as HTML
+  [1m[35mPin Load (0.2ms)[0m  SELECT "pins".* FROM "pins"
+  Rendered pins/index.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 79ms (Views: 78.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/bootstrap_and_customization.css?body=1" for 127.0.0.1 at 2015-01-13 16:21:13 -0400
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2015-01-13 16:21:13 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-13 16:21:13 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-13 16:21:13 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-13 16:21:13 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-13 16:21:13 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-13 16:21:13 -0400
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2015-01-13 16:21:13 -0400
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2015-01-13 16:21:13 -0400
+
+
+Started GET "/assets/pins.js?body=1" for 127.0.0.1 at 2015-01-13 16:21:13 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-13 16:21:13 -0400
+
+
+Started GET "/pins/6" for 127.0.0.1 at 2015-01-13 16:21:47 -0400
+Processing by PinsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mPin Load (0.2ms)[0m  [1mSELECT  "pins".* FROM "pins"  WHERE "pins"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered pins/show.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 386ms (Views: 383.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/pins/6" for 127.0.0.1 at 2015-01-13 16:22:02 -0400
+Processing by PinsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mPin Load (0.1ms)[0m  SELECT  "pins".* FROM "pins"  WHERE "pins"."id" = ? LIMIT 1  [["id", 6]]
+  Rendered pins/show.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 130ms (Views: 128.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/bootstrap_and_customization.css?body=1" for 127.0.0.1 at 2015-01-13 16:22:02 -0400
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2015-01-13 16:22:02 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-13 16:22:02 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-13 16:22:02 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-13 16:22:02 -0400
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2015-01-13 16:22:02 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-13 16:22:02 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-13 16:22:02 -0400
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2015-01-13 16:22:02 -0400
+
+
+Started GET "/assets/pins.js?body=1" for 127.0.0.1 at 2015-01-13 16:22:02 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-13 16:22:02 -0400
+
+
+Started GET "/pins" for 127.0.0.1 at 2015-01-13 16:29:06 -0400
+Processing by PinsController#index as HTML
+  [1m[36mPin Load (4.9ms)[0m  [1mSELECT "pins".* FROM "pins"[0m
+  Rendered pins/index.html.erb within layouts/application (7.2ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 160ms (Views: 154.1ms | ActiveRecord: 4.9ms)
+
+
+Started GET "/pins" for 127.0.0.1 at 2015-01-13 16:31:15 -0400
+Processing by PinsController#index as HTML
+  [1m[35mPin Load (0.4ms)[0m  SELECT "pins".* FROM "pins"
+  Rendered pins/index.html.erb within layouts/application (21.9ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 115ms (Views: 113.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/bootstrap_and_customization.css?body=1" for 127.0.0.1 at 2015-01-13 16:31:15 -0400
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2015-01-13 16:31:15 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-13 16:31:15 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-13 16:31:15 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-13 16:31:15 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-13 16:31:15 -0400
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2015-01-13 16:31:15 -0400
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2015-01-13 16:31:15 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-13 16:31:15 -0400
+
+
+Started GET "/assets/pins.js?body=1" for 127.0.0.1 at 2015-01-13 16:31:15 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-13 16:31:15 -0400
+
+
+Started GET "/pins" for 127.0.0.1 at 2015-01-13 16:35:41 -0400
+Processing by PinsController#index as HTML
+  [1m[36mPin Load (4.0ms)[0m  [1mSELECT "pins".* FROM "pins"[0m
+  Rendered pins/index.html.erb within layouts/application (7.5ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 180ms (Views: 174.7ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/assets/bootstrap_and_customization.css?body=1" for 127.0.0.1 at 2015-01-13 16:35:41 -0400
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2015-01-13 16:35:41 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-13 16:35:41 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-13 16:35:41 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-13 16:35:41 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-13 16:35:41 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-13 16:35:41 -0400
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2015-01-13 16:35:41 -0400
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2015-01-13 16:35:41 -0400
+
+
+Started GET "/assets/pins.js?body=1" for 127.0.0.1 at 2015-01-13 16:35:41 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-13 16:35:41 -0400
+
+
+Started GET "/pins" for 127.0.0.1 at 2015-01-13 16:38:59 -0400
+Processing by PinsController#index as HTML
+  [1m[35mPin Load (3.3ms)[0m  SELECT "pins".* FROM "pins"
+  Rendered pins/index.html.erb within layouts/application (7.5ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 142ms (Views: 138.0ms | ActiveRecord: 3.3ms)
+
+
+Started GET "/assets/bootstrap_and_customization.css?body=1" for 127.0.0.1 at 2015-01-13 16:38:59 -0400
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2015-01-13 16:38:59 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-13 16:38:59 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-13 16:38:59 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-13 16:38:59 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-13 16:38:59 -0400
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2015-01-13 16:38:59 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-13 16:38:59 -0400
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2015-01-13 16:38:59 -0400
+
+
+Started GET "/assets/pins.js?body=1" for 127.0.0.1 at 2015-01-13 16:38:59 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-13 16:38:59 -0400
+
+
+Started GET "/pins" for 127.0.0.1 at 2015-01-13 16:41:32 -0400
+Processing by PinsController#index as HTML
+  [1m[36mPin Load (0.2ms)[0m  [1mSELECT "pins".* FROM "pins"[0m
+  Rendered pins/index.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 182ms (Views: 180.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/bootstrap_and_customization.css?body=1" for 127.0.0.1 at 2015-01-13 16:41:32 -0400
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2015-01-13 16:41:32 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-13 16:41:32 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-13 16:41:32 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-13 16:41:32 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-13 16:41:32 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-13 16:41:32 -0400
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2015-01-13 16:41:32 -0400
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2015-01-13 16:41:32 -0400
+
+
+Started GET "/assets/pins.js?body=1" for 127.0.0.1 at 2015-01-13 16:41:32 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-13 16:41:32 -0400
+
+
+Started GET "/pins" for 127.0.0.1 at 2015-01-13 16:41:45 -0400
+Processing by PinsController#index as HTML
+  [1m[35mPin Load (15.8ms)[0m  SELECT "pins".* FROM "pins"
+  Rendered pins/index.html.erb within layouts/application (17.9ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 94ms (Views: 77.6ms | ActiveRecord: 15.8ms)
+
+
+Started GET "/assets/bootstrap_and_customization.css?body=1" for 127.0.0.1 at 2015-01-13 16:41:45 -0400
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2015-01-13 16:41:45 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-13 16:41:45 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-13 16:41:45 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-13 16:41:45 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-13 16:41:45 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-13 16:41:45 -0400
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2015-01-13 16:41:45 -0400
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2015-01-13 16:41:45 -0400
+
+
+Started GET "/assets/pins.js?body=1" for 127.0.0.1 at 2015-01-13 16:41:45 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-13 16:41:45 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-13 16:41:51 -0400
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 145ms (Views: 144.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fonts/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2015-01-13 16:41:52 -0400
+
+ActionController::RoutingError (No route matches [GET] "/fonts/bootstrap/glyphicons-halflings-regular.woff"):
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/Stephan/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/Stephan/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/Stephan/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/Stephan/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (10.7ms)
+  Rendered /Users/Stephan/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.1ms)
+  Rendered /Users/Stephan/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /Users/Stephan/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (37.7ms)
+
+
+Started GET "/fonts/bootstrap/glyphicons-halflings-regular.ttf" for 127.0.0.1 at 2015-01-13 16:41:52 -0400
+
+ActionController::RoutingError (No route matches [GET] "/fonts/bootstrap/glyphicons-halflings-regular.ttf"):
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/Stephan/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/Stephan/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/Stephan/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/Stephan/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /Users/Stephan/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.9ms)
+  Rendered /Users/Stephan/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /Users/Stephan/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (23.9ms)
