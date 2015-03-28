@@ -13,7 +13,7 @@ module Waterqualitypr
   :port                 => 587,
   :domain               => "gmail.com",
   :user_name            => "waterqualitypr@gmail.com",
-  :password             => "quality2014",
+  :password             => "waterquality",
   :authentication       => :plain,
   :enable_starttls_auto => true
 }
